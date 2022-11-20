@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(115deg, #ff9797 0%, #0f0068 100%),
+    linear-gradient(245deg, #a8ffe5 0%, #0500ff 100%),
+    radial-gradient(100% 225% at 100% 0%, #ff003d 0%, #000000 100%),
+    radial-gradient(
+      90% 160% at 0% 100%,
+      #e42c64 0%,
+      #e42c64 30%,
+      #614ad3 calc(30% + 1px),
+      #614ad3 60%,
+      #2d248a calc(60% + 1px),
+      #2d248a 70%,
+      #121b74 calc(70% + 1px),
+      #121b74 100%
+    ),
+    linear-gradient(
+      100deg,
+      #48466f 9%,
+      #48466d 35%,
+      #3d84a8 calc(35% + 1px),
+      #3d84a8 65%,
+      #46cdcf calc(65% + 1px),
+      #46cdcf 70%,
+      #abedd8 calc(70% + 1px),
+      #abedd8 100%
+    );
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+}
+
+.App h1 {
+  font-size: 2.3rem;
+  margin-block-start: 0px;
+  color: #fff;
+  padding-bottom: 1.8rem;
+}
+
+.input-text {
+  padding: 1rem;
+}
+
+.input-text > input {
+  border: 2px solid #e8e8e8;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #173248;
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.input:focus {
+  outline-color: white;
+  background-color: #212121;
+  color: #e8e8e8;
+  box-shadow: 5px 5px #888888;
+}
+
+button {
+  padding: 1.5em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
